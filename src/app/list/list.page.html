@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar color="dark" no-border no-padding mode="ios">
+    <ion-buttons slot="start">
+      <ion-button class="home-btn" routerLink="/home" mode="ios" *ngIf="!(searchQuery.length > 0)">
+        <ion-icon slot="start" name="home" style="font-size: 16px"></ion-icon>
+        Home
+      </ion-button>
+      <ion-button class="home-btn" mode="ios" (click)="clearFilters()" *ngIf="searchQuery.length > 0">
+        <ion-icon slot="start" name="ios-arrow-back" style="font-size: 16px"></ion-icon>
+        Back
+      </ion-button>
+    </ion-buttons>
+    <ion-title text-center color="light">
+      Khmer Words
+    </ion-title>
+  </ion-toolbar>
+  <ion-toolbar no-padding class="new-background-color">
+    <ion-searchbar no-padding placeholder="Filter items..." [(ngModel)]="searchQuery" (ionInput)="getItems($event)" 
+    style="padding-left: 10px; padding-right: 10px; height: 55px;" mode="ios"></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+    <ion-spinner name="lines" *ngIf="isLoading"></ion-spinner>
+
+  <ion-list *ngIf="!isLoading">
+    <ion-item *ngFor="let item of items; let i=index">
+      <ion-thumbnail slot="start" style="margin-right: 10px">
+        <img src="{{ item.img }}">
+      </ion-thumbnail>
+
+      <ion-label no-padding>
+        <h2 style="color: #000099">
+          {{ item.title }}
+        </h2>
+        <h2 style="color: #cc0000">
+          {{ item.description }}
+        </h2>
+        <p>
+          {{ item.info }}
+        </p>
+      </ion-label>
+
+      <ion-note slot="end" style="margin-inline-start: 0px;">
+        <img src="assets/imgs/list/play_btn.png" alt="Play" (click)="playAudio(i, item)" *ngIf="i != selectedItem">
+        <img src="assets/imgs/list/stop_btn.png" alt="Play" (click)="stopAudio(i, item)" *ngIf="i == selectedItem">
+      </ion-note>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

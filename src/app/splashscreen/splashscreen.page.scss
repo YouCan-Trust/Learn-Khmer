@@ -1,0 +1,50 @@
+// ion-content {
+//     --background: url('../../assets/imgs/SplashScreen/background.jpg') no-repeat center center fixed;
+//     -webkit-background-size: cover;
+//     -moz-background-size: cover;
+//     -o-background-size: cover;
+//     background-size: cover;
+//     margin: 0;
+//     padding: 0;
+//     height: 100%;
+//     width: 100%
+// }
+
+
+
+// Disable scrolling
+ion-content {
+    --overflow: hidden;
+}
+
+
+// Hide Scrollbar
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+.centered-image {
+    text-align:center; 
+    display:flex; 
+    position:absolute; 
+    top:0; 
+    bottom:0; 
+    right:0; 
+    left:0;
+    height: 100%;
+    
+    // Background Image
+    background: url('../../assets/imgs/SplashScreen/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+    width: 100%;
+        
+}
+
+.splash_logo {
+    position: relative;
+}

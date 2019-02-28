@@ -1,0 +1,284 @@
+{
+  "list_items": [
+    {
+      "title": "Hello (informal)",
+      "img": "assets/list_images/hello.jpg",
+      "description": "Sous-dey",
+      "info": "For friends, colleagues, younger people",
+      "audio": "assets/audio/002-hello.mp3"
+    },
+    {
+      "title": "Hello (formal)",
+      "img": "assets/list_images/joom-reab-sou.jpg",
+      "description": "Chum reap suor",
+      "info": "Greet people who are not so close to you",
+      "audio": "assets/audio/003-joom-reab-sou.mp3"
+    },
+    {
+      "title": "How are you?",
+      "img": "assets/list_images/how-are-you.jpg",
+      "description": "Ter neak sok sabay te?",
+      "info": "Cambodians usually ask this question",
+      "audio": "assets/audio/004-howareyou.mp3"
+    },
+    {
+      "title": "I'm fine, thanks",
+      "img": "assets/list_images/fine.jpg",
+      "description": "Knhom sok sabay te, orkun",
+      "info": "Answer could be sok sabay - good health",
+      "audio": "assets/audio/005-fine.mp3"
+    },
+    {
+      "title": "What's your name?",
+      "img": "assets/list_images/what-your-name.jpg",
+      "description": "Ter neak ch'muah ei?",
+      "info": "Questions begin normally with ter",
+      "audio": "assets/audio/007-whatyourname.mp3"
+    },
+    {
+      "title": "My name is...",
+      "img": "assets/list_images/my-name.jpg",
+      "description": "Kh'nyohm ch'muah...",
+      "info": "Say your first name",
+      "audio": "assets/audio/008-mynameis.mp3"
+    },
+    {
+      "title": "How old are you?",
+      "img": "assets/list_images/how-old.jpg",
+      "description": "ter neak maen aryok punman?",
+      "info": "is polite to ask (respect)",
+      "audio": "assets/audio/009-howoldareyou.mp3"
+    },
+    {
+      "title": "I'm 22 years old",
+      "img": "assets/list_images/i-am.jpg",
+      "description": "Knhom mean aryok 22 chnam",
+      "info": "Cambodians like to know (respect)",
+      "audio": "assets/audio/010-iam.mp3"
+    },
+    {
+      "title": "Nice to meet you",
+      "img": "assets/list_images/meet-you.jpg",
+      "description": "rick reeay nas del ban skall neak",
+      "info": "literally (nice to know you)",
+      "audio": "assets/audio/011a-nicetomeet.mp3"
+    },
+    {
+      "title": "Goodbye (formal)",
+      "img": "assets/list_images/joom-reab-lea.jpg",
+      "description": "joom reab lea",
+      "info": "Hands get folded, same as saying hello",
+      "audio": "assets/audio/011b-GoodBye.mp3"
+    },
+    {
+      "title": "Goodbye (informal)",
+      "img": "assets/list_images/le-hai.jpg",
+      "description": "le hai",
+      "info": "literally means - all good",
+      "audio": "assets/audio/012-allesGute.mp3"
+    },
+    {
+      "title": "Pineapple",
+      "img": "assets/list_images/pineapple.jpg",
+      "description": "Plei Manus",
+      "info": "Plei means fruit",
+      "audio": "assets/audio/DR2-0062.mp3"
+    },
+    {
+      "title": "Banana",
+      "img": "assets/list_images/banana.jpg",
+      "description": "Fruit banana",
+      "info": "Plei means fruit",
+      "audio": "assets/audio/DR2-0063.mp3"
+    },
+    {
+      "title": "coconut",
+      "img": "assets/list_images/coconut.jpg",
+      "description": "plei doung",
+      "info": "Plei means fruit",
+      "audio": "assets/audio/DR2-0064.mp3"
+    },
+    {
+      "title": "watermelon",
+      "img": "assets/list_images/watermelon.jpg",
+      "description": "plei ouv luk",
+      "info": "Plei means fruit",
+      "audio": "assets/audio/DR2-0065.mp3"
+    },
+    {
+      "title": "fruit",
+      "img": "assets/list_images/fruit.jpg",
+      "description": "plei",
+      "info": "Plei means fruit",
+      "audio": "assets/audio/DR2-0067.mp3"
+    },
+    {
+      "title": "vegetable",
+      "img": "assets/list_images/vegetable.jpg",
+      "description": "bonlai",
+      "info": "Vegetabe is very popular",
+      "audio": "assets/audio/DR2-0068.mp3"
+    },
+    {
+      "title": "khmer noodles",
+      "img": "assets/list_images/khmer-noodles.jpg",
+      "description": "nom bain jork",
+      "info": "Khmer noodles also for breakfast",
+      "audio": "assets/audio/DR2-0071.mp3"
+    },
+    {
+      "title": "rice",
+      "img": "assets/list_images/rice.jpg",
+      "description": "by",
+      "info": "livelihoods of Cambodians",
+      "audio": "assets/audio/DR2-0072.mp3"
+    },
+    {
+      "title": "fish",
+      "img": "assets/list_images/fish-fathers.jpg",
+      "description": "trey",
+      "info": "fish are caught in Tonle Sap Lake",
+      "audio": "assets/audio/DR2-0073.mp3"
+    },
+    {
+      "title": "water",
+      "img": "assets/list_images/water.jpg",
+      "description": "teuk",
+      "info": "livelihoods of Cambodians",
+      "audio": "assets/audio/DR2-0080.mp3"
+    },
+    {
+      "title": "tea",
+      "img": "assets/list_images/tea.jpg",
+      "description": "tae",
+      "info": "The Cambodia variety naturally crossed with others...",
+      "audio": "assets/audio/DR2-0081.mp3"
+    },
+    {
+      "title": "salt",
+      "img": "assets/list_images/salt.jpg",
+      "description": "oum bel",
+      "info": "Cambodian Top 10 Products - Cambodia Sea Salt",
+      "audio": "assets/audio/DR2-0083.mp3"
+    },
+    {
+      "title": "pepper",
+      "img": "assets/list_images/pepper.jpg",
+      "description": "ma ric",
+      "info": "Kampot pepper has a sweet and smokey warm smell",
+      "audio": "assets/audio/DR2-0084.mp3"
+    },
+    {
+      "title": "chilli",
+      "img": "assets/list_images/chilli.jpg",
+      "description": "plymateh",
+      "info": "Tuk Chro Luk – Cambodian Chili Sauce",
+      "audio": "assets/audio/DR2-0085.mp3"
+    },
+    {
+      "title": "chicken",
+      "img": "assets/list_images/chicken.jpg",
+      "description": "sach meun",
+      "info": "Cambodian Food: Chicken Curry Soup",
+      "audio": "assets/audio/DR2-0088.mp3"
+    },
+    {
+      "title": "bill please",
+      "img": "assets/list_images/bill-please.jpg",
+      "description": "shom kit luy",
+      "info": "Can we have the bill, please (polite form)",
+      "audio": "assets/audio/DR2-0089.mp3"
+    },
+    {
+      "title": "I will take",
+      "img": "assets/list_images/will-take.jpg",
+      "description": "knhom neng yok",
+      "info": " I suggest to order by the number of the menu",
+      "audio": "assets/audio/DR2-0091.mp3"
+    },
+    {
+      "title": "I'm hungry",
+      "img": "assets/list_images/i-am-hungry.jpg",
+      "description": "knhom klean",
+      "info": "eating means socializing",
+      "audio": "assets/audio/DR2-0092.mp3"
+    },
+    {
+      "title": "delicious",
+      "img": "assets/list_images/delicious.jpg",
+      "description": "cha arnh",
+      "info": "difficult to pronounce",
+      "audio": "assets/audio/DR2-0094.mp3"
+    },
+    {
+      "title": "I don't like",
+      "img": "assets/list_images/do-not-like.jpg",
+      "description": "knhom nin chul chet tee",
+      "info": "to say “no” you say “Yes, I don’t like coffee, no”",
+      "audio": "assets/audio/DR2-0095.mp3"
+    },
+    {
+      "title": "spicy/hot",
+      "img": "assets/list_images/spicy.jpg",
+      "description": "hel",
+      "info": "fish sauce and chillies",
+      "audio": "assets/audio/DR2-0096.mp3"
+    },
+    {
+      "title": "lotus",
+      "img": "assets/list_images/lotus.jpg",
+      "description": "pka chhuk",
+      "info": "Lotus Flower is usually used to decorate homes and as offerings.",
+      "audio": "assets/audio/DR2-0020.mp3"
+    },
+    {
+      "title": "rain",
+      "img": "assets/list_images/rain.jpg",
+      "description": "pleang",
+      "info": "rainy season in Cambodia extends from June to October,",
+      "audio": "assets/audio/DR2-0025.mp3"
+    },
+    {
+      "title": "sun",
+      "img": "assets/list_images/sun.jpg",
+      "description": "preah artit",
+      "info": "Electricity from rice and sun in Cambodia",
+      "audio": "assets/audio/DR2-0025.mp3"
+    },
+    {
+      "title": "khmer soup",
+      "img": "assets/list_images/sumlaw-amok.jpg",
+      "description": "sumlaw amok",
+      "info": "Water, Soup Base, Beef Bone, Carrot, Onion, Sugar and Salt",
+      "audio": "assets/audio/DR2-0070.mp3"
+    },
+    {
+      "title": "one",
+      "img": "assets/list_images/one.jpg",
+      "description": "moy",
+      "info": "at the numberplate means - car",
+      "audio": "assets/audio/DR2-0106.mp3"
+    },
+    {
+      "title": "two",
+      "img": "assets/list_images/two.jpg",
+      "description": "pee",
+      "info": "t",
+      "audio": "assets/audio/DR2-0107.mp3"
+    },
+    {
+      "title": "four",
+      "img": "assets/list_images/four.jpg",
+      "description": "boo-un",
+      "info": "",
+      "audio": "assets/audio/DR2-0109.mp3"
+    },
+    {
+      "title": "five",
+      "img": "assets/list_images/five.jpg",
+      "description": "bram",
+      "info": "W",
+      "audio": "assets/audio/DR2-0110.mp3"
+    }
+  ]
+}

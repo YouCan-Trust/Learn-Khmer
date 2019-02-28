@@ -1,0 +1,29 @@
+.new-background-color {
+	--background: #EEEEEE;
+	// text-align:center;	
+}
+
+ion-searchbar {
+
+	.searchbar-left-aligned.sc-ion-searchbar-ios-h .searchbar-input.sc-ion-searchbar-ios {
+		box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+		border: 1px solid #ccc;
+	}
+	
+	
+}
+
+.searchbar-left-aligned.sc-ion-searchbar-ios-h .searchbar-input.sc-ion-searchbar-ios {
+    box-shadow: inset 0px 1px 4px rgba(0,0,0,.2);
+	border: 1px solid #ccc;
+}
+
+ion-spinner {
+	display: block;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center; // Horizontal align
+	align-items: center; // Vertical align
+	height: 90%;
+}
