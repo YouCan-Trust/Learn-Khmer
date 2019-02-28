@@ -1,7 +1,5 @@
 # Learn-Khmer
 
-
-## Learn-Khmer
 This app describes the useful words in Cambodian Language.
 
 For demo, click [here](https://pwa-test-48be4.firebaseapp.com).
