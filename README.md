@@ -6,7 +6,7 @@ For demo, click [here](https://khmer4you-b6310.firebaseapp.com).
 
 1. Install the the latest version of the Ionic CLI:
     ```
-    npm install -g ionic@beta
+    npm install -g ionic@latest
     ```
 
 1. Clone this repository
