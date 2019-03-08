@@ -1,10 +1,8 @@
 # Learn-Khmer
 
-
-## Learn-Khmer
 This app describes the useful words in Cambodian Language.
 
-For demo, click [here](https://pwa-test-48be4.firebaseapp.com).
+For demo, click [here](https://khmer4you-b6310.firebaseapp.com).
 
 1. Install the the latest version of the Ionic CLI:
     ```
