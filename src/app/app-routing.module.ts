@@ -14,6 +14,12 @@ const routes: Routes = [
     path: 'tabs',
     loadChildren: './tabs/tabs.module#TabsPageModule'
   },
+  
+  // { 
+  //   path: 'friends-info', 
+  //   loadChildren: './friends-info/friends-info.module#FriendsInfoPageModule' 
+  // },
+
   // { 
   //   path: 'tabs/home', 
   //   loadChildren: './tabs/tabs.module#TabsPageModule' 

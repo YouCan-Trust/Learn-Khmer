@@ -12,6 +12,19 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
+
+  <ion-slides [options]="slideOpts" #slides style="height: 100%;">
+    <ion-slide class="bg-image1">
+    </ion-slide>
+    <ion-slide class="bg-image2">
+    </ion-slide>
+    <ion-slide class="bg-image3">
+      <!-- <ion-img src="/assets/imgs/photos/3.jpg"></ion-img> -->
+    </ion-slide>
+  </ion-slides>
+
+  <ion-icon name="arrow-dropleft-circle" class="swiper-button-prev" (click)="prevSlide()" mode="ios"></ion-icon>
+  <ion-icon name="arrow-dropright-circle" class="swiper-button-next" (click)="nextSlide()" mode="ios"></ion-icon>
 
 </ion-content>

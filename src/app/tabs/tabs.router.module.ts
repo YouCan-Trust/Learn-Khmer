@@ -56,6 +56,10 @@ const routes: Routes = [
         path: 'friends',
         children: [
           {
+            path: 'friends-info',
+            loadChildren: '../friends-info/friends-info.module#FriendsInfoPageModule'
+          },
+          {
             path: '',
             loadChildren: '../friends/friends.module#FriendsPageModule'
           }

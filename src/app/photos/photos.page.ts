@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-photos',
@@ -7,9 +7,27 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PhotosPage implements OnInit {
 
+  @ViewChild('slides') slides: any;
+
+  slideOpts = {
+    loop: true,
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+  };
+
+  
   constructor() { }
 
   ngOnInit() {
   }
+
+  prevSlide() {
+    this.slides.slidePrev();
+  }
+
+  nextSlide() {
+    this.slides.slideNext();
+  }
+
 
 }

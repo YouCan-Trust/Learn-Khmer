@@ -58,7 +58,6 @@ export class ListPage implements OnInit {
   }
 
   
-  
   ionViewWillEnter() {
     this.http.get("/assets/data.json")
       .subscribe(

@@ -14,5 +14,107 @@
 
 
 <ion-content>
+  <br>
+  <img src="assets/imgs/AboutUs/youcan_65.png" alt="you-can">
 
+  <ion-list *ngFor="let item of items; let i =index" lines="none" detail="false" no-padding style="background: transparent">
+
+    <ion-card style="border: 1px solid #ccc; margin-top: 0 !important; margin-bottom: 0 !important">
+      <ion-item tappable (click)="toggleSection(i)">
+        <ion-label>
+          <h2 style="font-weight: bold">
+            {{ item.name }}
+          </h2>
+          <p>
+            {{ item.description }}
+          </p>
+        </ion-label>
+        <ion-icon slot="end" *ngIf="item.isOpen" name="remove-circle"></ion-icon>
+        <ion-icon slot="end" *ngIf="!item.isOpen" name="add-circle"></ion-icon>
+      </ion-item>
+    </ion-card>
+
+    <div *ngIf="item.isOpen && i == 0" padding>
+      <p style="margin-top: 0px; padding-top: 5px; text-align: justify; font-size: 14px;">
+        <img src="assets/imgs/AboutUs/K-ID.png" width="50%" alt="kid" style="padding: 0 15px 10px 0; float: left;"> Intercultural dialogue (defined by the Council of Europe) is a process that comprises an open and respectful exchange
+        or interaction between individuals, groups and organisations with different cultural backgrounds or world views.
+      </p>
+      Among its aims are:
+      <ul>
+        <li>
+          to develop a deeper understanding of diverse perspectives and practices;</li>
+        <li>to increase participation and the freedom and ability to make choices;</li>
+        <li>to foster equality; and to enhance creative processes.</li>
+      </ul>
+      <p style="margin-top: 0px; padding-top: 5px;text-align: justify; font-size: 14px;">Dialogue between cultures, the oldest and most fundamental mode of democratic conversation, is an antidote to rejection
+        and violence. Its objective is to enable us to live together peacefully and constructively in a multicultural world
+        and to develop a sense of community and belonging.
+      </p>
+    </div>
+
+
+    <!-- Second Section -->
+    <div *ngIf="item.isOpen && i == 1" padding style="padding-top: 2px !important">
+
+      <ion-card>
+        <ion-card-content>
+          <p class=info style="text-align: center;">
+            <strong style="color: #222">Experiences that change you!</strong>
+            <br>
+            <strong style="color: #222">Projects that enable you!</strong>
+            <br> New possibilities in international youth work and competency development takes place each year in Siem Reap,
+            Cambodia. Info at:
+            <br>
+            <a href="http://www.iicamp.org" style="text-decoration: none; font-weight:bold; font-size: 18px; 
+            color: #ec8f1f; border-bottom: 1px solid #999999">
+              www.iicamp.org</a>
+            <br>
+          </p>
+        </ion-card-content>
+      </ion-card>
+      <br>
+
+      <p style="margin-top: 0px; padding-top: 5px;text-align: justify;font-size: 14px;">
+        <img class="imagepadding" src="assets/imgs/AboutUs/K-Group.jpg" width="50%" alt="kgroup" style="padding: 0 15px 10px 0; float: left;"> Our
+        <strong>"Interculture Innovation Camp"</strong>
+        directly addresses the desire of young adults for new experiences, new learning, and the need to create something in the
+        21st Century.
+        <br>
+        <br>
+        <strong>The impact of globalisation</strong> on jobs and daily existence demands new competencies from a generation that
+        must see itself as individual participants in a
+        <strong>networked global society.</strong>
+      </p>
+      <p style="margin-top: 0px; padding-top: 5px;text-align: justify;font-size: 14px;">
+        <strong>Many problems </strong>today have a global dimension , such as climate change, energy, raw materials, water, and
+        food security. The distribution of resources for the benefit of all demands an
+        <strong>"Intercultural Dialogue"</strong> that is also capable to minimise conflicts by promoting greater understanding among
+        people.
+      </p>
+      <p style="margin-top: 0px; padding-top: 5px;text-align: justify;font-size: 14px;">
+        <strong>Students</strong> say they are motivated by solving real-world problems. They often express a preference for doing
+        rather than listening.
+        <br>
+        <br>
+        <strong>By recognizing</strong> global problem areas through practical work with young people in a developing country, participants
+        will be motivated to take into account global perspectives, connections and networks that they were not aware of
+        previously. </p>
+      <p style="margin-top: 0px; padding-top: 5px;text-align: justify;font-size: 14px;">
+        <strong>"International - Intercultural Competence"</strong>
+        , however, does not happen by itself. It requires a learning and development process that cannot start early enough and that
+        is provided by
+        <strong>"International Innovation Camps"</strong> with qualified coaches and an
+        <strong>
+          internationally recognized Certificate</strong> issued by
+        <strong>IJAB</strong> and supported by the Federal Republic of Germany.
+        <a href="http://www.ijab.de" style="text-decoration: none; font-weight:bold; font-size: 16px; 
+			  color: #ec8f1f; border-bottom: 1px solid #999999">
+          www.ijab.de</a>
+        <br>
+      </p>
+    </div>
+
+  </ion-list>
+  <br>
+  
 </ion-content>

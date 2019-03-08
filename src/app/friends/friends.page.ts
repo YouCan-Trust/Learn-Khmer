@@ -13,8 +13,10 @@ export class FriendsPage implements OnInit {
   ngOnInit() {
   }
 
-  // navigate() {
-  //   this.router.navigateByUrl('/tabs/friends/friends-list');
-  // }
+  navigateToFrndInfo() {
+    // console.log("Info Page..");
+    this.router.navigateByUrl('/tabs/friends/friends-info');
+  }
+
 
 }
