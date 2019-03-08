@@ -1,6 +1,6 @@
 # Learn-Khmer
 
-This app describes the useful words in Cambodian Language.
+This app describes the useful words in Cambodian Language..
 
 For demo, click [here](https://khmer4you-b6310.firebaseapp.com).
 
